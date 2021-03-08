@@ -1,0 +1,22 @@
+.aboutTheAuthorImg img {
+	display: block;
+	margin: 0 auto;
+}
+.aboutTheAuthorContents p {
+	text-align: justify;
+}
+
+.ataSig {
+	text-align: right;
+	h2 {
+		color: #e6bf82;
+		font-family: 'Playfair Display', serif;
+		font-size: 49px;
+		margin: 25px 0 0;
+		font-weight: normal;
+	}
+
+	span {
+		letter-spacing: 6px;
+	}
+}

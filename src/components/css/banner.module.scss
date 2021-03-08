@@ -1,0 +1,85 @@
+.banner {
+	background: url(/banner-bg.png) no-repeat;
+	background-size: cover;
+
+	.bannerContents {
+		text-align: center;
+	}
+	.bannerHeading {
+		width: 1500px;
+		margin: 0 auto 60px;
+		max-width: 100%;
+		text-transform: uppercase;
+
+		span {
+			display: block;
+			line-height: initial;
+		}
+
+		.bh1 {
+			color: #fff;
+			font-family: 'Permanent Marker', cursive;
+			font-size: 4.5em;
+		}
+
+		.bh2 {
+			font-family: "Montserrat", sans-serif;
+			font-weight: bold;
+			font-size: 12.5em;
+		}
+
+		.bhimgCont {
+			position: relative;
+
+			.bhimg {
+				background: url(http://localhost:8000/banner-glasses.png) no-repeat;
+				background-size: cover;
+				width: 720px;
+				height: 267px;
+				margin: 0 auto;
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 1300px) {
+	.banner {
+		.bannerHeading {
+			margin: 80px auto;
+
+			.bh1 {
+				font-size: 3em;
+			}
+			.bh2 {
+				font-size: 6em;
+			}
+			.bhimgCont {
+				.bhimg {
+					width: 400px;
+					height: 145px;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 799px) {
+	.banner {
+		.bannerHeading {
+			margin: 100px auto 0;
+
+			.bh1 {
+				font-size: 2em;
+			}
+			.bh2 {
+				font-size: 2.5em;
+			}
+			.bhimgCont {
+				.bhimg {
+					width: 250px;
+					height: 90px;
+				}
+			}
+		}
+	}
+}

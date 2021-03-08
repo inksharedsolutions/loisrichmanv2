@@ -1,0 +1,33 @@
+.banner {
+	background: url(/banner-bg.png) no-repeat;
+	background-size: cover;
+	height: 500px;
+
+	.bannerContents {
+		text-align: center;
+	}
+	.bannerHeading {
+		display: inline-block;
+		margin: 200px 0;
+		color: rgba(255, 255, 255, .9);
+		text-transform: uppercase;
+		font-family: 'Montserrat', sans-serif;
+		font-weight: bold;
+		font-size: 5em;
+
+		span {
+			display: block;
+		}
+	}
+}
+
+@media only screen and (max-width: 1300px) {
+	.banner {
+		height: auto;
+
+		.bannerHeading {
+			margin: 100px 0;
+			font-size: 2.5em;
+		}
+	}
+}
